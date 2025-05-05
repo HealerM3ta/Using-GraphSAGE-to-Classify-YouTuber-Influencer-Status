@@ -19,9 +19,16 @@ Average Comments
 Average number of videos
 
 We ran the model 10 Times for each set.
+
 For Set A:
+
 Average Accuracy: 0.58446
+
 Average F1 Score: 0.51863
+
 For Set B:
+
 Average Accuracy: 0.70074
+
 Average F1 Score: 0.68088
+
