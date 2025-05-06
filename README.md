@@ -32,3 +32,18 @@ Average Accuracy: 0.70074
 
 Average F1 Score: 0.68088
 
+# Instructions to Execute
+
+When running the program in collab, the user need to install torch-geometric and captum, however due to collab version conflicts some errors will be encountered in the process. please execute as follows:
+
+Step 1: run the first code block with the line "!pip install captum" NOT commented out. This should raise an error at the end.
+
+Step 2: Open runtime and restart the session.
+
+Step 3: Comment out "!pip install captum" and run the first block again to ensure torch-geometric has been installed.
+
+Step 4: Run the block to import all of the necessary libraries.
+
+Step 5: Run the next block for uploading the JSON and upload a JSON file of the dataset *NOTICE: The dataset MUST be named new_target_file_plus_266.json for the rest of the program to work.
+
+Step 6: Go through the rest of the code blocks from top to bottom executing. Keep in mind that the final block for creating the captum graph takes about 40-45 minutes to execute with the dataset.
