@@ -1,4 +1,4 @@
-API_KEY = "AIzaSyDq1sJYY7o1rXyg0uIOQ7dQFJf_sKL0SHc"
+API_KEY = ""
 
 import time
 import json
@@ -79,7 +79,7 @@ def get_video_details(video_ids):
     return videos
 
 # 1) Load creator IDs
-creator_ids = load_creator_ids("nig_creator_ids.txt")
+creator_ids = load_creator_ids("")
 
 data = {}
 metrics_list = []
@@ -178,6 +178,6 @@ for m in metrics_list:
     data[cid]["influencer"] = is_influencer
 
 # 3) Write out JSON as before
-with open("creators_data3.json", "w") as f:
+with open("", "w") as f:
     json.dump(data, f, indent=2)
-print("✅ Saved creators_data3.json")
+print("✅ Saved")
